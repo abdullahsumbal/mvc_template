@@ -46,7 +46,7 @@ python app.py
 The ui is designed using `qt designer` and saved in `main_view.ui` in view directory.
 You can make changes to `main_view.ui` and convert it to a python file using the following command.
 ```buildoutcfg
-pyuic5 app.ui -o main_view_ui.py
+pyuic5 view/main_view.ui -o view/main_view_ui.py
 ```
 ### Deploy Application
 Run the following command on terminal
