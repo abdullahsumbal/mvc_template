@@ -25,18 +25,18 @@ model-view-controller-template
 2. step up python environment
     ```buildoutcfg
     conda create --name mvc python=3.7
-    ``` 
+    ```
 3. activate environment
     ```buildoutcfg
     conda activate mvc
-    or 
+    or
     source activate mvc
     ```
-    
+
 ### Installation
-Install required python libraries 
+Install required python libraries
 ```buildoutcfg
-pip install -r requirements.txt
+pip install -r requirement.txt
 
 ```
 ### Run Application (dev)
